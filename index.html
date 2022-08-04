@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap 5 Admin Template</title>
+    <script src="https://kit.fontawesome.com/37414aeb0e.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/4bea204677.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Admin</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent">
@@ -26,7 +27,7 @@
                             <a href="#" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">Settings</a>
+                            <a href="#" class="nav-link ">Settings</a>
                         </li>
                 </ul>
                 <form action="" class="d-flex">
@@ -36,6 +37,69 @@
             </div>
         </div>
     </nav>
+    
+    <div class="main-container">
+        <div class="container-fluid">
+            <div class="col-12 pt-4">
+                <div class="mt-2 py-3 px-5 bg-white shadow-sm rounded-3">
+                    <nav style="--bs-breadcrumb-divider:'>' ;" aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active">Statistics</li>
+
+                        </ol>
+                    </nav>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-3 py-3">
+                        <div class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4">
+                                <div>
+                                    <p class="small">Customers</p>
+                                    <p class="fs-3 fw-bold">25,432</p>
+                                    <p class="mb-0"><span class="text-danger"><i class="fas fa-arrow-down"></i>2.21% </span>Since last month</p>
+                                </div>
+                                <i class="fas fa-user-check fa-2x stats"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 py-3">
+                        <div class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4">
+                                <div>
+                                    <p class="small">Orders </p>
+                                    <p class="fs-3 fw-bold">1200</p>
+                                    <p class="mb-0"><span class="text-success"><i class="fas fa-arrow-up"></i>4.51%</span>Since last month</p>
+                                </div>
+                                <i class="fas fa-cart+plus fa-2x stats"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 py-3">
+                        <div class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4">
+                                <div>
+                                    <p class="small">Revenue</p>
+                                    <p class="fs-3 fw-bold">3,000$</p>
+                                    <p class="mb-0"><span class="text-success"><i class="fas fa-arrow-up"></i>2.21%</span>Since last month</p>
+                                </div>
+                                <i class="fas fa-dollar-sign fa-2x stats"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 py-3">
+                        <div class="bg-white shadow-sm rounded-3 d-flex justify-content-between p-4">
+                                <div>
+                                    <p class="small">Growth</p>
+                                    <p class="fs-3 fw-bold">14.60%</p>
+                                    <p class="mb-0"><span class="text-success"><i class="fas fa-arrow-up"></i>4.21%</span>Since last month</p>
+                                </div>
+                                <i class="fas fa-chart-bar fa-2x stats"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

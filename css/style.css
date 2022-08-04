@@ -4,3 +4,8 @@ body {
     font-family: 'Nunito', sans-serif;
     background-color: #fafbfe;
 }
+
+.main-container p,
+.stats{
+    color: #6d6d6d;
+}
